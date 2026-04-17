@@ -1,0 +1,8 @@
+name: fraud-detection
+type: PBL
+framework: CRISP-DM + LEAN
+author: Jose Marcel Lopez Pino
+created: 2026-04-16
+status: In Progress
+module: "M9 - Fundamentos de Big Data"
+python: "3.12"

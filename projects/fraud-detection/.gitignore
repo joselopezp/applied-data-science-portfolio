@@ -1,0 +1,24 @@
+# Data files (raw data excluded from Git)
+data/raw/*
+data/processed/*
+data/final/*
+!data/raw/README.md
+!data/processed/README.md
+!data/final/README.md
+
+# Parquet and large files
+*.parquet
+*.snappy
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
