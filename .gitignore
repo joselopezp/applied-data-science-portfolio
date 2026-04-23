@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data — never commit raw or processed data
+data/raw/*
+data/processed/*
+data/final/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/final/.gitkeep
+
+# Models — never commit binary artifacts
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Generated figures
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Large files
+*.parquet
+*.snappy
+*.csv
+*.zip
+
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
